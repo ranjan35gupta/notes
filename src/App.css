@@ -25,10 +25,12 @@ button {
   font-size: inherit;
   font-family: inherit;
   cursor: pointer;
-  color: #08c;
+  color: rgb(33, 45, 95);
+  width: 3rem;
 }
 button:hover {
   color: #04c;
+  background-color: #08c;
 }
 
 .App {
@@ -41,12 +43,15 @@ button:hover {
   width: 30%;
   height: 100vh;
   border-right: 1px solid #ddd;
+  background-color: #999;
+  
 }
 
 .app-sidebar-header {
   display: flex;
   justify-content: space-between;
   padding: 25px;
+  
 }
 .app-sidebar-header h1 {
   margin: 0;
